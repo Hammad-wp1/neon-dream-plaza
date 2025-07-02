@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NeonDream Plaza | 3D Virtual Mall</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/build/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/examples/js/controls/OrbitControls.js"></script>
+</head>
+<body>
+  <!-- Loading Screen -->
+  <div id="loader">
+    <h1>NEONDREAM PLAZA</h1>
+    <p>Loading the cyberpunk mall...</p>
+  </div>
+
+  <!-- 3D Scene Container -->
+  <div id="scene-container"></div>
+
+  <!-- UI Elements -->
+  <div id="ui">
+    <div id="search-bar">
+      <input type="text" placeholder="Search stores...">
+      <button>🔍</button>
+    </div>
+    <div id="store-info">
+      <h2>Welcome to NeonDream Plaza</h2>
+      <p>WASD to move | Click on stores to enter</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+  </html>
